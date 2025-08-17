@@ -1,5 +1,3 @@
-C:\Users\ADMIN\whatsapp-openwa-bot>
-
 import { create } from '@open-wa/wa-automate';
 import OpenAI from 'openai';
 
@@ -19,7 +17,7 @@ const openai = new OpenAI({
 
 // ===== Ignore list configuration =====
 const ignoredContacts = [
-  "000000000@g.us",
+  "0000000000",
 ];
 
 const botStartTime = Math.floor(Date.now() / 1000);
