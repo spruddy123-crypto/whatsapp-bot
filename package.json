@@ -1,20 +1,14 @@
 {
-  "name": "whatsapp-openwa-bot",
+  "name": "whatsapp-bot",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@open-wa/wa-automate": "^4.76.0",
-    "axios": "^1.11.0",
-    "node-fetch": "^3.3.2",
-    "openai": "^5.12.2",
-    "puppeteer": "^23.11.1"
+    "openai": "^4.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.0"
   }
 }
